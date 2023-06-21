@@ -1,3 +1,11 @@
+/* Tarefa 10 - grid */
+
+/* Atividade 1 */
+
+/* Criar um álbum com grid, contendo 10 imagens de tamanhos diferentes
+Você pode adicionar esse álbum ao seu site ou pode fazer um projeto separado */
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

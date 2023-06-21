@@ -1,3 +1,9 @@
+// Tarefa 9 - carrossel
+
+// Atividade 1
+
+// Crie um carrossel de imagens em seu site
+
 const carouselSlide = document.querySelector('.carousel-slide');
 
 function startCarousel() {

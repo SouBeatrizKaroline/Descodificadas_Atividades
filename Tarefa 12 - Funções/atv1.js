@@ -1,3 +1,7 @@
+// Tarefa 12 - Funções
+
+// Atividade 1
+
 // Faça um projeto que contenha uma função JavaScript em que o usuário informe 3 números e o programa calcule a média aritmética desses números e mostre o resultado
 
 function calcularMedia() {

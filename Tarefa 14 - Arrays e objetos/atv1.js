@@ -1,3 +1,5 @@
+// Tarefa 14 - Arrays e objetos
+
 // Faça um projeto que dada uma sequência de caracteres, inverta o seu conteúdo e apresente ao usuário o resultado invertido na tela. 
 
 function inverterSequencia() {

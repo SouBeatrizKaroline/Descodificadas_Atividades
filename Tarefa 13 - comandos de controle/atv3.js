@@ -1,3 +1,7 @@
+// Tarefa 13 - comandos de controle
+
+// Atividade 3
+
 // Faça um programa JavaScript em que o usuário informará a sua idade e o programa emitirá uma mensagem(alert) dizendo se o usuário é ou não menor de idade 
 
 // Encontrar a soma dos múltiplos de 3 ou 5 abaixo de 1000

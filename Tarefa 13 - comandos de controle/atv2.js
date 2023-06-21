@@ -1,3 +1,7 @@
+// Tarefa 13 - comandos de controle
+
+// Atividade 2
+
 // Faça um programa JavaScript em que o usuário informará a sua idade e o programa emitirá uma mensagem(alert) dizendo se o usuário é ou não menor de idade 
 
 // Receber a idade do usuário
