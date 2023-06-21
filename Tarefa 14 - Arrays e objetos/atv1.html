@@ -1,0 +1,41 @@
+<!-- Faça um projeto que dada uma sequência de caracteres, inverta o seu conteúdo e apresente ao usuário o resultado invertido na tela -->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverter Sequência de Caracteres</title>
+</head>
+<body>
+    <head>
+        <title>Inverter Sequência de Caracteres</title>
+        <script type="text/javascript">
+          function inverterSequencia() {
+            var sequencia = document.getElementById("sequencia").value;
+            
+            // Converter a sequência em um array
+            var arraySequencia = sequencia.split("");
+            
+            // Inverter o array
+            var arrayInvertido = arraySequencia.reverse();
+            
+            // Converter o array invertido de volta para uma string
+            var sequenciaInvertida = arrayInvertido.join("");
+            
+            // Exibir o resultado invertido na tela
+            document.getElementById("resultado").innerHTML = sequenciaInvertida;
+          }
+        </script>
+      </head>
+
+        <h1>Inverter Sequência de Caracteres</h1>
+        
+        <label for="sequencia">Informe a sequência de caracteres:</label>
+        <input type="text" id="sequencia" />
+        <button onclick="inverterSequencia()">Inverter</button>
+        
+        <p id="resultado"></p>
+
+</body>
+</html>

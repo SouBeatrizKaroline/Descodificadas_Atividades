@@ -1,0 +1,37 @@
+<!-- Tarefa 13 - comandos de controle -->
+
+<!-- Faça um programa JavaScript que receba 3 números informados pelo usuário e em seguida apresente uma mensagem de alerta(alert) informando qual é o maior número dentre os números informados -->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior Numero</title>
+</head>
+<body>
+    <head>
+        <title>Maior Numero</title>
+        <script type="text/javascript">
+
+          // Programa para encontrar o maior número
+          var numero1 = parseInt(prompt("Informe o primeiro número:"));
+          var numero2 = parseInt(prompt("Informe o segundo número:"));
+          var numero3 = parseInt(prompt("Informe o terceiro número:"));
+      
+          var maiorNumero = numero1;
+      
+          if (numero2 > maiorNumero) {
+            maiorNumero = numero2;
+          }
+      
+          if (numero3 > maiorNumero) {
+            maiorNumero = numero3;
+          }
+      
+          alert("O maior número é: " + maiorNumero);
+
+        </script>
+      </head>
+</body>
+</html>
